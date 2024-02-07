@@ -1,2 +1,1 @@
-# CRUD_WebAPI_CleanArch
-CRUD with ASP.NET Core Web API using Clean Architecture ( .NET 8)
+.NET Core 8.0 - CRUD - Clean Architecture using Repository Pattern and Dapper.
