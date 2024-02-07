@@ -1,0 +1,17 @@
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Logging.deps.json
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Logging.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Logging.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Application.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Application.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.csproj.AssemblyReference.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.AssemblyInfoInputs.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.AssemblyInfo.cs
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.csproj.CopyComplete
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\refint\CRUDWebAPICleanArch.Logging.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\CRUDWebAPICleanArch.Logging.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Logging\obj\Debug\net8.0\ref\CRUDWebAPICleanArch.Logging.dll

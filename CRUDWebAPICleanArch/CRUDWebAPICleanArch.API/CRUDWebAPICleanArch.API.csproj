@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUDWebAPICleanArch.Application\CRUDWebAPICleanArch.Application.csproj" />
+    <ProjectReference Include="..\CRUDWebAPICleanArch.Core\CRUDWebAPICleanArch.Core.csproj" />
+    <ProjectReference Include="..\CRUDWebAPICleanArch.Infrastructure\CRUDWebAPICleanArch.Infrastructure.csproj" />
+    <ProjectReference Include="..\CRUDWebAPICleanArch.Logging\CRUDWebAPICleanArch.Logging.csproj" />
+  </ItemGroup>
+
+</Project>

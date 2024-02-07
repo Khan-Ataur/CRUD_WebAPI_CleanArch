@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CRUDWebAPICleanArch.Application/1.0.0": {
+        "dependencies": {
+          "CRUDWebAPICleanArch.Core": "1.0.0"
+        },
+        "runtime": {
+          "CRUDWebAPICleanArch.Application.dll": {}
+        }
+      },
+      "CRUDWebAPICleanArch.Core/1.0.0": {
+        "runtime": {
+          "CRUDWebAPICleanArch.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CRUDWebAPICleanArch.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUDWebAPICleanArch.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

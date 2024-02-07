@@ -1,0 +1,17 @@
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.deps.json
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Application.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Application.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.csproj.AssemblyReference.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.AssemblyInfoInputs.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.AssemblyInfo.cs
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.csproj.CopyComplete
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\refint\CRUDWebAPICleanArch.Infrastructure.dll
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\CRUDWebAPICleanArch.Infrastructure.pdb
+D:\GIT_PROJECT\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Infrastructure\obj\Debug\net8.0\ref\CRUDWebAPICleanArch.Infrastructure.dll
