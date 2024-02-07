@@ -11,3 +11,5 @@
 <li>Unit of Work</li>
 <li>Swagger UI</li>
 <li>API Authentication (Key Based)</li>
+
+<h3>Solution and Project setup:</h3>
