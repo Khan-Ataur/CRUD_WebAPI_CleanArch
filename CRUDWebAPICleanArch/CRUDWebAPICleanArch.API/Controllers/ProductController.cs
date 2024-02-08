@@ -91,26 +91,40 @@ namespace CRUDWebAPICleanArch.API.Controllers
         public async Task<ApiResponse<string>> Add(Product product)
         {
             var apiResponse = new ApiResponse<string>();
-
-            try
-            {
-                var data = await _unitOfWork.ProductRepo.AddAsync(product);
-                apiResponse.Success = true;
-                apiResponse.Result = data;
-            }
-            catch (SqlException ex)
+            if (product.PrdDescription =="")
             {
                 apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("SQL Exception:", ex);
+                apiResponse.Message = "Product Description should not be empty.";
+
             }
-            catch (Exception ex)
+            else if (product.ProductPrice <0)
             {
                 apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("Exception:", ex);
+                apiResponse.Message = "Product Price should not be less than Zero.";
+            }
+            else
+            {
+                try
+                {
+                    var data = await _unitOfWork.ProductRepo.AddAsync(product);
+                    apiResponse.Success = true;
+                    apiResponse.Result = data;
+                }
+                catch (SqlException ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("SQL Exception:", ex);
+                }
+                catch (Exception ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("Exception:", ex);
+                }
             }
 
+          
             return apiResponse;
         }
 
@@ -119,24 +133,50 @@ namespace CRUDWebAPICleanArch.API.Controllers
         {
             var apiResponse = new ApiResponse<string>();
 
-            try
-            {
-                var data = await _unitOfWork.ProductRepo.UpdateAsync(product);
-                apiResponse.Success = true;
-                apiResponse.Result = data;
-            }
-            catch (SqlException ex)
+            if (product.ProductId <= 0)
             {
                 apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("SQL Exception:", ex);
+                apiResponse.Message = "Product Id not match. Invaild product id.";
             }
-            catch (Exception ex)
+            else if(product.PrdDescription=="")
             {
                 apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("Exception:", ex);
+                apiResponse.Message = "Product Description should not be empty.";
             }
+            else
+            {
+                try
+                {
+                    var data = await _unitOfWork.ProductRepo.UpdateAsync(product);
+                    if (data !="0")
+                    {
+                        apiResponse.Success = true;
+                        apiResponse.Message = "Product Update Successfull.";
+                        apiResponse.Result = data;
+
+                    }
+                    else if (data =="0")
+                    {
+                        apiResponse.Success = false;
+                        apiResponse.Message = "Product Update Failed!!";
+                        apiResponse.Result = data;
+                    }
+                    
+                }
+                catch (SqlException ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("SQL Exception:", ex);
+                }
+                catch (Exception ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("Exception:", ex);
+                }
+            }
+           
 
             return apiResponse;
         }
@@ -145,25 +185,46 @@ namespace CRUDWebAPICleanArch.API.Controllers
         public async Task<ApiResponse<string>> Delete(int id)
         {
             var apiResponse = new ApiResponse<string>();
+            
+            if (id <= 0)
+            {
+                apiResponse.Success = false;
+                apiResponse.Message = "Product Id not match. Invaild product id.";
+            }
+            else
+            {
+                try
+                {
+                    var data = await _unitOfWork.ProductRepo.DeleteAsync(id);
 
-            try
-            {
-                var data = await _unitOfWork.ProductRepo.DeleteAsync(id);
-                apiResponse.Success = true;
-                apiResponse.Result = data;
+                    if (data != "0")
+                    {
+                        apiResponse.Success = true;
+                        apiResponse.Message = "Product Delete Successfull.";
+                        apiResponse.Result = data;
+
+                    }
+                    else if (data == "0")
+                    {
+                        apiResponse.Success = false;
+                        apiResponse.Message = "Product Delete Failed!!";
+                        apiResponse.Result = data;
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("SQL Exception:", ex);
+                }
+                catch (Exception ex)
+                {
+                    apiResponse.Success = false;
+                    apiResponse.Message = ex.Message;
+                    Logger.Instance.Error("Exception:", ex);
+                }
             }
-            catch (SqlException ex)
-            {
-                apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("SQL Exception:", ex);
-            }
-            catch (Exception ex)
-            {
-                apiResponse.Success = false;
-                apiResponse.Message = ex.Message;
-                Logger.Instance.Error("Exception:", ex);
-            }
+          
 
             return apiResponse;
         }

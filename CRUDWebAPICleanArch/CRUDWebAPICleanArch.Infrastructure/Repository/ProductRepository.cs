@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CRUDWebAPICleanArch.Core.Entities;
 using CRUDWebAPICleanArch.Application.Interfaces;
+using static Dapper.SqlMapper;
 
 namespace CRUDWebAPICleanArch.Infrastructure.Repository
 {
@@ -66,37 +67,47 @@ namespace CRUDWebAPICleanArch.Infrastructure.Repository
             return data;
         }
 
-        public async Task<string> AddAsync(Product entity)
+        public async Task<string> AddAsync(Product objProduct)
         {
-            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
-            {
-                connection.Open();
-                //var result = await connection.ExecuteAsync(_configuration.AddProduct, entity);
-                var result="";
-                return result.ToString();
-            }
+            DapperConnection();
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("PrdDescription", objProduct.PrdDescription);
+            parameters.Add("ProductPrice", objProduct.ProductPrice);
+            parameters.Add("Remarks", objProduct.Remarks);
+            var rowsAffected = await _dapperContext.ExecuteAsync("sp_InsertProduct", parameters);
+            return rowsAffected.ToString();
         }
 
-        public async Task<string> UpdateAsync(Product entity)
+        public async Task<string> UpdateAsync(Product objProduct)
         {
-            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
+            if (objProduct.ProductId==0)
             {
-                connection.Open();
-                // var result = await connection.ExecuteAsync(_configuration.UpdateProduct, entity);
-                var result = "";
-                return result.ToString();
+                return "Invaild Product Id.";
             }
+
+            DapperConnection();
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("ProductId", objProduct.ProductId);
+            parameters.Add("PrdDescription", objProduct.PrdDescription);
+            parameters.Add("ProductPrice", objProduct.ProductPrice);
+            parameters.Add("Remarks", objProduct.Remarks);
+            var rowsAffected = await _dapperContext.ExecuteAsync("sp_UpdateProduct", parameters);
+            return rowsAffected.ToString();
         }
 
         public async Task<string> DeleteAsync(long id)
         {
-            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
+            if (id == 0)
             {
-                connection.Open();
-                // var result = await connection.ExecuteAsync(_configuration.DeleteProduct, new { ProductId = id });
-                var result = "";
-                return result.ToString();
+                return "Invaild Product Id.";
             }
+
+            DapperConnection();
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("ProductId", id);
+
+            var rowsAffected = await _dapperContext.ExecuteAsync("sp_DeleteProduct", parameters);
+            return rowsAffected.ToString();
         }
 
         #endregion
