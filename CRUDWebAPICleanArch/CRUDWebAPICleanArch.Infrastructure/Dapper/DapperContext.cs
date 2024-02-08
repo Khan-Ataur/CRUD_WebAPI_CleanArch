@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CRUDWebAPICleanArch.Infrastructure.Dapper
 {
-    internal class DapperContext
+    public class DapperContext
     {
         private readonly IConfiguration _config;
         //private string Connectionstring = "DefaultConnection";

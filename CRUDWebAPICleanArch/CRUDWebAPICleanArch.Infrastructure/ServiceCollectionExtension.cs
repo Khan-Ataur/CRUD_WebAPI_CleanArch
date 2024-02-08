@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CRUDWebAPICleanArch.Application.Interfaces;
+using CRUDWebAPICleanArch.Infrastructure.Repository;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,9 @@ namespace CRUDWebAPICleanArch.Infrastructure
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            //services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
             //services.AddTransient<IContactRepository, ContactRepository>();
-            //services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
     }
 }

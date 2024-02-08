@@ -9,10 +9,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CRUDWebAPICleanArch.Core.Entities;
+using CRUDWebAPICleanArch.Application.Interfaces;
 
 namespace CRUDWebAPICleanArch.Infrastructure.Repository
 {
-    internal class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         #region ===[ Private Members ]=============================================================
 
@@ -55,45 +56,48 @@ namespace CRUDWebAPICleanArch.Infrastructure.Repository
             return data.ToList();
         }
 
-        //public async Task<Product> GetByIdAsync(long id)
-        //{
-        //    DapperConnection();
-        //    DynamicParameters parameters = new DynamicParameters();
-        //    parameters.Add("ProductId", id);
-        //    List<Product> productList = new List<Product>();
-        //    var data = await _dapperContext.GetBySingleParamAsync<Product>("sp_getProductByProdId", parameters, commandType: CommandType.StoredProcedure);
-        //    return data;
-        //}
+        public async Task<Product> GetByIdAsync(long id)
+        {
+            DapperConnection();
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("ProductId", id);
+            List<Product> productList = new List<Product>();
+            var data = await _dapperContext.GetBySingleParamAsync<Product>("sp_getProductByProdId", parameters, commandType: CommandType.StoredProcedure);
+            return data;
+        }
 
-        //public async Task<string> AddAsync(Product entity)
-        //{
-        //    using (IDbConnection connection = new SqlConnection(configuration.GetConnectionString("DBConnection")))
-        //    {
-        //        connection.Open();
-        //        var result = await connection.ExecuteAsync(ProductQueries.AddProduct, entity);
-        //        return result.ToString();
-        //    }
-        //}
+        public async Task<string> AddAsync(Product entity)
+        {
+            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
+            {
+                connection.Open();
+                //var result = await connection.ExecuteAsync(_configuration.AddProduct, entity);
+                var result="";
+                return result.ToString();
+            }
+        }
 
-        //public async Task<string> UpdateAsync(Product entity)
-        //{
-        //    using (IDbConnection connection = new SqlConnection(configuration.GetConnectionString("DBConnection")))
-        //    {
-        //        connection.Open();
-        //        var result = await connection.ExecuteAsync(ProductQueries.UpdateProduct, entity);
-        //        return result.ToString();
-        //    }
-        //}
+        public async Task<string> UpdateAsync(Product entity)
+        {
+            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
+            {
+                connection.Open();
+                // var result = await connection.ExecuteAsync(_configuration.UpdateProduct, entity);
+                var result = "";
+                return result.ToString();
+            }
+        }
 
-        //public async Task<string> DeleteAsync(long id)
-        //{
-        //    using (IDbConnection connection = new SqlConnection(configuration.GetConnectionString("DBConnection")))
-        //    {
-        //        connection.Open();
-        //        var result = await connection.ExecuteAsync(ProductQueries.DeleteProduct, new { ProductId = id });
-        //        return result.ToString();
-        //    }
-        //}
+        public async Task<string> DeleteAsync(long id)
+        {
+            using (IDbConnection connection = new SqlConnection(_configuration.GetConnectionString("DBConnection")))
+            {
+                connection.Open();
+                // var result = await connection.ExecuteAsync(_configuration.DeleteProduct, new { ProductId = id });
+                var result = "";
+                return result.ToString();
+            }
+        }
 
         #endregion
 
