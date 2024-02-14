@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CRUDWebAPICleanArch.Application.Interfaces
+﻿namespace CRUDWebAPICleanArch.Application.Interfaces
 {
     public interface IRepository<T> where T : class
     {

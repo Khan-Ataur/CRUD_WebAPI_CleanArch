@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDWebAPICleanArch.Logging")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd4cf140accc1d448e59ea37da968bfa0c3cac54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDWebAPICleanArch.Logging")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDWebAPICleanArch.Logging")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
