@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebAPICleanArch.Core", "CRUDWebAPICleanArch.Core\CRUDWebAPICleanArch.Core.csproj", "{BDC1187D-078D-4F56-BB4F-413584066E27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.Core", "CRUDWebAPICleanArch.Core\CRUDWebAPICleanArch.Core.csproj", "{BDC1187D-078D-4F56-BB4F-413584066E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebAPICleanArch.Application", "CRUDWebAPICleanArch.Application\CRUDWebAPICleanArch.Application.csproj", "{E564BC6B-01A0-406D-9D39-2EE40BA9F941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.Application", "CRUDWebAPICleanArch.Application\CRUDWebAPICleanArch.Application.csproj", "{E564BC6B-01A0-406D-9D39-2EE40BA9F941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebAPICleanArch.Logging", "CRUDWebAPICleanArch.Logging\CRUDWebAPICleanArch.Logging.csproj", "{B8BF6D50-A21D-4D31-B38C-351D5C0B663D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.Logging", "CRUDWebAPICleanArch.Logging\CRUDWebAPICleanArch.Logging.csproj", "{B8BF6D50-A21D-4D31-B38C-351D5C0B663D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebAPICleanArch.Infrastructure", "CRUDWebAPICleanArch.Infrastructure\CRUDWebAPICleanArch.Infrastructure.csproj", "{AB1031B8-0211-4C8F-8F24-BF72238EFB22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.Infrastructure", "CRUDWebAPICleanArch.Infrastructure\CRUDWebAPICleanArch.Infrastructure.csproj", "{AB1031B8-0211-4C8F-8F24-BF72238EFB22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebAPICleanArch.API", "CRUDWebAPICleanArch.API\CRUDWebAPICleanArch.API.csproj", "{758DB4BB-6520-4209-8CED-8E1BCAC77F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.API", "CRUDWebAPICleanArch.API\CRUDWebAPICleanArch.API.csproj", "{758DB4BB-6520-4209-8CED-8E1BCAC77F35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDCoreWebApp", "CRUDCoreWebApp\CRUDCoreWebApp.csproj", "{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{758DB4BB-6520-4209-8CED-8E1BCAC77F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758DB4BB-6520-4209-8CED-8E1BCAC77F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{758DB4BB-6520-4209-8CED-8E1BCAC77F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
