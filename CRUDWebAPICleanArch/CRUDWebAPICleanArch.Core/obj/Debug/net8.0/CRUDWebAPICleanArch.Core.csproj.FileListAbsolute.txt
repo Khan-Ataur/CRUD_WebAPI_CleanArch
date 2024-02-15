@@ -21,3 +21,15 @@ D:\Project\GIT_JP\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.
 D:\Project\GIT_JP\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\refint\CRUDWebAPICleanArch.Core.dll
 D:\Project\GIT_JP\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.pdb
 D:\Project\GIT_JP\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\ref\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.deps.json
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\bin\Debug\net8.0\CRUDWebAPICleanArch.Core.pdb
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.AssemblyInfoInputs.cache
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.AssemblyInfo.cs
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.sourcelink.json
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\refint\CRUDWebAPICleanArch.Core.dll
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\CRUDWebAPICleanArch.Core.pdb
+D:\GIT_PROJECT\CRUD_WebAPI_CleanArch\CRUDWebAPICleanArch\CRUDWebAPICleanArch.Core\obj\Debug\net8.0\ref\CRUDWebAPICleanArch.Core.dll

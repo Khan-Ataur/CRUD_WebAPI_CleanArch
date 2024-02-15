@@ -22,7 +22,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.UseMiddleware<ApiKeyMiddleware>();
+//app.UseMiddleware<ApiKeyMiddleware>();
 
 
 

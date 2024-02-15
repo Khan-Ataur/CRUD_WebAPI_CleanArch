@@ -3,7 +3,7 @@
     public class ApiKeyMiddleware
     {
         private readonly RequestDelegate _next;
-        private const string APIKEY = "ApiKey";
+        private const string APIKEY = "04577BA6-3E32-456C-B528-E41E20D28D79";
         public ApiKeyMiddleware(RequestDelegate next)
         {
             _next = next;

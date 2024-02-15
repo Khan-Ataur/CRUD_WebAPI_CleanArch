@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "CRUDWebAPICleanArch.API\\CRUDWebAPICleanArch.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "CRUDCoreWebApp\\CRUDCoreWebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

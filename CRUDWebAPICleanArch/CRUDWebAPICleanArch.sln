@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.Infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWebAPICleanArch.API", "CRUDWebAPICleanArch.API\CRUDWebAPICleanArch.API.csproj", "{758DB4BB-6520-4209-8CED-8E1BCAC77F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDCoreWebApp", "CRUDCoreWebApp\CRUDCoreWebApp.csproj", "{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDCoreWebApp", "CRUDCoreWebApp\CRUDCoreWebApp.csproj", "{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
