@@ -735,19 +735,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\20171140\\.nuget\\packages\\": {}
+    "C:\\Users\\Khan Ataur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj",
       "projectName": "CRUDWebAPICleanArch.Infrastructure",
-      "projectPath": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\20171140\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\obj\\",
+      "projectPath": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Khan Ataur\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\20171140\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Khan Ataur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -755,17 +755,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Application\\CRUDWebAPICleanArch.Application.csproj": {
-              "projectPath": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Application\\CRUDWebAPICleanArch.Application.csproj"
+            "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Application\\CRUDWebAPICleanArch.Application.csproj": {
+              "projectPath": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Application\\CRUDWebAPICleanArch.Application.csproj"
             },
-            "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj": {
-              "projectPath": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj"
+            "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj": {
+              "projectPath": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj"
             }
           }
         }
@@ -774,11 +774,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -818,7 +813,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
