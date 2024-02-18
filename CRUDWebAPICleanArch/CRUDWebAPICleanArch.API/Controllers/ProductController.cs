@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 
 namespace CRUDWebAPICleanArch.API.Controllers
 {
+    //[Route("api/[controller]/[Action]")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : BaseApiController
@@ -60,6 +61,7 @@ namespace CRUDWebAPICleanArch.API.Controllers
         }
 
         [HttpGet("GetByID/{id}")]
+        //[HttpGet]
         public async Task<ApiResponse<Product>> GetById(int id)
         {
 
