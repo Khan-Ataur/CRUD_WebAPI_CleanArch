@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Security.Policy;
 
 namespace CRUDCoreWebApp.Controllers
 {
@@ -22,17 +23,23 @@ namespace CRUDCoreWebApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            ProductVM FinalResult = null;
             List<Product> productList = new List<Product>();
+
             HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product").Result;
-            //ProductVM res = JsonConvert.DeserializeObject<ProductVM>(link);
+
             if (response.IsSuccessStatusCode)
             {
-                var resResult = response.Content;
-               
-                //ProductVM ss = JsonConvert.DeserializeObject<Product>(resResult);
-
+                var Returnresult = response.Content.ReadAsStringAsync().Result;
+                FinalResult = new ProductVM();
+                FinalResult = JsonConvert.DeserializeObject<ProductVM>(Returnresult);
             }
-            return View(productList);
+            if (FinalResult != null)
+            {
+                productList = FinalResult.result;               
+            }
+
+            return View(FinalResult);
         }
 
 
