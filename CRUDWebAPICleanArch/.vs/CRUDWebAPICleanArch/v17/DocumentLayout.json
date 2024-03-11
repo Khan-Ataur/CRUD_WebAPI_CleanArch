@@ -11,20 +11,28 @@
       "RelativeMoniker": "D:0:0:{758DB4BB-6520-4209-8CED-8E1BCAC77F35}|CRUDWebAPICleanArch.API\\CRUDWebAPICleanArch.API.csproj|solutionrelative:crudwebapicleanarch.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB1031B8-0211-4C8F-8F24-BF72238EFB22}|CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudwebapicleanarch.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1031B8-0211-4C8F-8F24-BF72238EFB22}|CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj|solutionrelative:crudwebapicleanarch.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\models\\commonapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\models\\commonapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\models\\viewmodels\\productindividualvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\models\\viewmodels\\productindividualvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB1031B8-0211-4C8F-8F24-BF72238EFB22}|CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudwebapicleanarch.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB1031B8-0211-4C8F-8F24-BF72238EFB22}|CRUDWebAPICleanArch.Infrastructure\\CRUDWebAPICleanArch.Infrastructure.csproj|solutionrelative:crudwebapicleanarch.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudcorewebapp\\models\\viewmodels\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2CFF3A1-7BD2-41F6-9AF6-CCD6157E089B}|CRUDCoreWebApp\\CRUDCoreWebApp.csproj|solutionrelative:crudcorewebapp\\models\\viewmodels\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{758DB4BB-6520-4209-8CED-8E1BCAC77F35}|CRUDWebAPICleanArch.API\\CRUDWebAPICleanArch.API.csproj|d:\\git_project\\crud_webapi_cleanarch\\crudwebapicleanarch\\crudwebapicleanarch.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -48,7 +56,7 @@
               "RelativeDocumentMoniker": "CRUDCoreWebApp\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Controllers\\ProductController.cs",
               "RelativeToolTip": "CRUDCoreWebApp\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFIAAAAIAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wI0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T04:44:57.066Z",
               "IsPinned": true,
@@ -125,51 +133,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CommonAPIResponse.cs",
-              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\CommonAPIResponse.cs",
-              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Models\\CommonAPIResponse.cs",
-              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\CommonAPIResponse.cs",
-              "RelativeToolTip": "CRUDCoreWebApp\\Models\\CommonAPIResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T05:19:14.335Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "CRUDCoreWebApp\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T06:39:11.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Models\\Product.cs",
-              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\Product.cs",
-              "RelativeToolTip": "CRUDCoreWebApp\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\ViewModels\\ProductVM.cs",
+              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Models\\ViewModels\\ProductVM.cs",
+              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\ViewModels\\ProductVM.cs",
+              "RelativeToolTip": "CRUDCoreWebApp\\Models\\ViewModels\\ProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T05:12:45.878Z",
+              "WhenOpened": "2024-03-11T06:29:53.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductIndividualVM.cs",
+              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\ViewModels\\ProductIndividualVM.cs",
+              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Models\\ViewModels\\ProductIndividualVM.cs",
+              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Models\\ViewModels\\ProductIndividualVM.cs",
+              "RelativeToolTip": "CRUDCoreWebApp\\Models\\ViewModels\\ProductIndividualVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T06:28:08.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDCoreWebApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CRUDCoreWebApp\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T06:26:59.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "CRUDWebAPICleanArch.Infrastructure\\Repository\\ProductRepository.cs",
               "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Infrastructure\\Repository\\ProductRepository.cs",
               "RelativeToolTip": "CRUDWebAPICleanArch.Infrastructure\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAA1wEwAAABSAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAowFAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T04:56:24.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "CRUDCoreWebApp\\Views\\Product\\Create.cshtml",
               "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDCoreWebApp\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "CRUDCoreWebApp\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADsAAAAfAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-11T04:47:30.573Z",
               "EditorCaption": ""
@@ -182,14 +216,14 @@
               "RelativeDocumentMoniker": "CRUDWebAPICleanArch.API\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "CRUDWebAPICleanArch.API\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAUwGYAAAAMAAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAcwJ4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T04:44:57.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.API\\appsettings.json",
               "RelativeDocumentMoniker": "CRUDWebAPICleanArch.API\\appsettings.json",
@@ -197,8 +231,7 @@
               "RelativeToolTip": "CRUDWebAPICleanArch.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-18T10:53:31.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T10:53:31.539Z"
             }
           ]
         }

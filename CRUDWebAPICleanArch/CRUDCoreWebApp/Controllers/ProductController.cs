@@ -1,4 +1,5 @@
 ﻿using CRUDCoreWebApp.Models;
+using CRUDCoreWebApp.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http;
@@ -44,33 +45,70 @@ namespace CRUDCoreWebApp.Controllers
             return View(productList);
         }
 
+
+
+
+
         [HttpGet]
         public IActionResult Edit(int? id)
         {
+            Product objProduct=null;
             if (id ==null || id ==0)
             {
                 return NotFound();
             }
-            Product objProduct = null;
-            //Product objProduct = null;
+            ProductIndividualVM objProductIndividual = null;
+    
             //HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById?id=" + id).Result;
             HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById/" + id).Result;
 
             if (response.IsSuccessStatusCode)
             {
                 var Returnresult = response.Content.ReadAsStringAsync().Result;
-                objProduct = new Product();
-                objProduct = JsonConvert.DeserializeObject<Product>(Returnresult);
+                objProductIndividual = new ProductIndividualVM();
+                objProductIndividual = JsonConvert.DeserializeObject<ProductIndividualVM>(Returnresult);
             }
-
-            //if (objProduct != null)
-            //{
-            //    objProduct = new Product();
-            //    objProduct = objProduct.result;
-            //}
+            if (objProductIndividual != null)
+            {
+                objProduct = new Product();
+                objProduct.ProductId = objProductIndividual.result.ProductId;
+                objProduct.PrdDescription = objProductIndividual.result.PrdDescription;
+                objProduct.ProductPrice = objProductIndividual.result.ProductPrice;
+                objProduct.Remarks = objProductIndividual.result.Remarks;
+            }
+  
 
             return View(objProduct);
         }
+
+        [HttpPost]
+        public IActionResult Edit(Product objProduct)
+        {
+            CommonAPIResponse commonAPIResponse = new CommonAPIResponse();
+            if (objProduct != null)
+            {                
+                HttpResponseMessage response =_client.PutAsJsonAsync(baseAddress + "/Product/", objProduct).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var Returnresult = response.Content.ReadAsStringAsync().Result;
+
+                    commonAPIResponse = JsonConvert.DeserializeObject<CommonAPIResponse>(Returnresult);
+                }
+            }
+
+            if (commonAPIResponse.success == false)
+            {
+                ViewBag.Message = commonAPIResponse.message;
+                return View();
+            }
+
+
+            return RedirectToAction("Index");
+        }
+
+
+
+
 
         [HttpGet]
         public IActionResult Create()
@@ -102,6 +140,10 @@ namespace CRUDCoreWebApp.Controllers
 
             return RedirectToAction("Index");
         }
+
+
+
+
 
 
     }
