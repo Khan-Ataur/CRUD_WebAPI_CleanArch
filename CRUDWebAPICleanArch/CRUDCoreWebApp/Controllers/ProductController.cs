@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Security.Policy;
 
 namespace CRUDCoreWebApp.Controllers
@@ -39,7 +40,7 @@ namespace CRUDCoreWebApp.Controllers
             if (FinalResult != null)
             {
                 productList = new List<Product>();
-                productList = FinalResult.result;               
+                productList = FinalResult.result;
             }
 
             return View(productList);
@@ -52,13 +53,13 @@ namespace CRUDCoreWebApp.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            Product objProduct=null;
-            if (id ==null || id ==0)
+            Product objProduct = null;
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
             ProductIndividualVM objProductIndividual = null;
-    
+
             //HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById?id=" + id).Result;
             HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById/" + id).Result;
 
@@ -76,7 +77,7 @@ namespace CRUDCoreWebApp.Controllers
                 objProduct.ProductPrice = objProductIndividual.result.ProductPrice;
                 objProduct.Remarks = objProductIndividual.result.Remarks;
             }
-  
+
 
             return View(objProduct);
         }
@@ -86,8 +87,8 @@ namespace CRUDCoreWebApp.Controllers
         {
             CommonAPIResponse commonAPIResponse = new CommonAPIResponse();
             if (objProduct != null)
-            {                
-                HttpResponseMessage response =_client.PutAsJsonAsync(baseAddress + "/Product/", objProduct).Result;
+            {
+                HttpResponseMessage response = _client.PutAsJsonAsync(baseAddress + "/Product/", objProduct).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     var Returnresult = response.Content.ReadAsStringAsync().Result;
@@ -110,33 +111,34 @@ namespace CRUDCoreWebApp.Controllers
 
 
 
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        [HttpPost]  
+        [HttpPost]
         public IActionResult Create(Product objProduct)
         {
             CommonAPIResponse commonAPIResponse = new CommonAPIResponse();
-            if (objProduct != null) 
-            {               
+            if (objProduct != null)
+            {
                 HttpResponseMessage response = _client.PostAsJsonAsync(baseAddress + "/Product/", objProduct).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     var Returnresult = response.Content.ReadAsStringAsync().Result;
-                  
+
                     commonAPIResponse = JsonConvert.DeserializeObject<CommonAPIResponse>(Returnresult);
                 }
             }
 
-            if (commonAPIResponse.success==false)
+            if (commonAPIResponse.success == false)
             {
                 ViewBag.Message = commonAPIResponse.message;
                 return View();
             }
-            
+
 
             return RedirectToAction("Index");
         }
@@ -144,6 +146,81 @@ namespace CRUDCoreWebApp.Controllers
 
 
 
+
+
+
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            Product objProduct = null;
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            ProductIndividualVM objProductIndividual = null;
+
+            //HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById?id=" + id).Result;
+            HttpResponseMessage response = _client.GetAsync(baseAddress + "/Product/GetById/" + id).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                var Returnresult = response.Content.ReadAsStringAsync().Result;
+                objProductIndividual = new ProductIndividualVM();
+                objProductIndividual = JsonConvert.DeserializeObject<ProductIndividualVM>(Returnresult);
+            }
+            if (objProductIndividual != null)
+            {
+                objProduct = new Product();
+                objProduct.ProductId = objProductIndividual.result.ProductId;
+                objProduct.PrdDescription = objProductIndividual.result.PrdDescription;
+                objProduct.ProductPrice = objProductIndividual.result.ProductPrice;
+                objProduct.Remarks = objProductIndividual.result.Remarks;
+            }
+
+
+            return View(objProduct);
+        }
+
+
+
+        [HttpPost]
+        //[HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            CommonAPIResponse commonAPIResponse = new CommonAPIResponse();
+            if (id > 0)
+            {
+                //HttpResponseMessage response = _client.DeleteFromJsonAsync(baseAddress + "/Product/", ProductId).Result;
+                //HttpResponseMessage response = _client.DeleteAsync(baseAddress + "/Product/ProductDeleteById/" + id).Result;
+                HttpResponseMessage response = _client.DeleteAsync(baseAddress + "/Product/" + id).Result;
+                //HttpResponseMessage response = _client.DeleteFromJsonAsync(baseAddress + "/Product/", id).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var Returnresult = response.Content.ReadAsStringAsync().Result;
+
+                    commonAPIResponse = JsonConvert.DeserializeObject<CommonAPIResponse>(Returnresult);
+                }
+            }
+
+            if (commonAPIResponse.success == false)
+            {
+                if (commonAPIResponse.message != null)
+                {
+                    ViewBag.Message = commonAPIResponse.message;
+                    return View();
+                }
+                else
+                {
+                    ViewBag.Message = "Error occured when perform delete this product.!";
+                    return RedirectToAction("Index");
+                }
+
+            }
+
+
+            return RedirectToAction("Index");
+        }
 
 
     }
