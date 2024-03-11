@@ -72,7 +72,36 @@ namespace CRUDCoreWebApp.Controllers
             return View(objProduct);
         }
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
 
+        [HttpPost]  
+        public IActionResult Create(Product objProduct)
+        {
+            CommonAPIResponse commonAPIResponse = new CommonAPIResponse();
+            if (objProduct != null) 
+            {               
+                HttpResponseMessage response = _client.PostAsJsonAsync(baseAddress + "/Product/", objProduct).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var Returnresult = response.Content.ReadAsStringAsync().Result;
+                  
+                    commonAPIResponse = JsonConvert.DeserializeObject<CommonAPIResponse>(Returnresult);
+                }
+            }
+
+            if (commonAPIResponse.success==false)
+            {
+                ViewBag.Message = commonAPIResponse.message;
+                return View();
+            }
+            
+
+            return RedirectToAction("Index");
+        }
 
 
     }

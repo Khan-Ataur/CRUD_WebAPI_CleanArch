@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDCoreWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f949fdfd199849c2474322ed328701435e873aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff7ce38033642971ddb187b9995609ff2eccb5eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDCoreWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDCoreWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

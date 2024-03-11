@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x+gYrp0w30dEagzhZr/6okORou63nBPGALbWAtdLTKcXeZaFb1K08Y/l8zgbop8n0JSEX3ljzaWDmnWdWhqbhA==",
+  "dgSpecHash": "q+WItYSWpkOaR1ADV8DImpgJgnShCUF8qb7o0VuG7rEYKw0ljdIszf0kOhAltX5XRhDib8c4oo1P0x0Zxdd2Xw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\GIT_JP\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj",
+  "projectFilePath": "D:\\GIT_PROJECT\\CRUD_WebAPI_CleanArch\\CRUDWebAPICleanArch\\CRUDWebAPICleanArch.Core\\CRUDWebAPICleanArch.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
