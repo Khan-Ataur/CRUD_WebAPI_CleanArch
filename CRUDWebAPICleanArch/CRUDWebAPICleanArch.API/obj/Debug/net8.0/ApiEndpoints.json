@@ -120,7 +120,7 @@
   {
     "ContainingType": "CRUDWebAPICleanArch.API.Controllers.ProductController",
     "Method": "Delete",
-    "RelativePath": "api/Product/ProductDeleteById",
+    "RelativePath": "api/Product/Product-Delete-By-Id/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -128,7 +128,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

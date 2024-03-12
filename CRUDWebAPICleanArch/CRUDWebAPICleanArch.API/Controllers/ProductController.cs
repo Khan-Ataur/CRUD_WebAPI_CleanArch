@@ -183,7 +183,7 @@ namespace CRUDWebAPICleanArch.API.Controllers
             return apiResponse;
         }
 
-        [HttpDelete("ProductDeleteById")]
+        [HttpDelete("Product-Delete-By-Id/{id}")]
         //[HttpDelete]
         public async Task<ApiResponse<string>> Delete(int id)
         {
